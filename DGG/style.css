@@ -1,0 +1,54 @@
+body {
+    background-color: green;
+}
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+article img {
+    max-width: 30%;
+    float: left;
+}
+
+.content {
+    border: 1px solid black;
+    margin: auto;
+    width: 80%;
+    padding: 30px;
+}
+
+.archive {
+    background-color: rgb(255, 196, 0);
+    margin: auto;
+    width: 100%;
+    padding: 30px;
+
+}
+
+.nav {
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    background-color: yellow;
+    width: 100%;
+    gap: 10%;
+}
+
+.nav button {
+    display: flex;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: blue;
+    margin-right: 1%;
+}
+
+.nav button:hover {
+    background-color: rgb(99, 99, 255);
+}

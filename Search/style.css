@@ -1,0 +1,22 @@
+body{
+      background-color:rgb(8, 0, 255)
+    }
+
+    h1{
+      font-size: 300%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+.search-button {
+  padding: 300%, 200%;
+  align-items: center;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
