@@ -3,12 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AnyBrowser - Browse Anywhere</title>
+  <title>AnyBrowse - Browse Anywhere</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>BrowseAnywhere</h1>
+  <div class="top">
+    <button type="button" onclick="location.reload()">Reload</button>
+  </div>
+  <div class="content">
+
+  <h1>AnyBrowse</h1>
 
   <div class="bar">
     <input type="text" id="searchInput" placeholder="Search...">
@@ -16,7 +21,6 @@
     <input title="Use HTTP" type="checkbox" name="Use HTTP" id="usehttp">
     <p>Use HTTP</p>
   </div>
-
   <div class="search-button">
     <!-- Search Buttons -->
     <button onclick="searchGoogle()">Search With Google</button>
@@ -30,6 +34,7 @@
 
 <div id="shortcuts">
   <button onclick="newShortcut()" type="button">+</button>
+</div>
 </div>
   <script src="script.js"></script>
 </body>
